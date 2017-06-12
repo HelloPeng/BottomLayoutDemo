@@ -206,7 +206,6 @@ public class AppBottomLayoutManager {
             int position = (int) view.getTag();
 
             if (mSelectedTabItem == view) {
-
                 if (mItemClickChangeListener != null) {
                     mItemClickChangeListener.onItemReselected(mBottomLayout, view, position);
                 }

@@ -5,6 +5,7 @@ import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.TypedValue;
 import android.view.Gravity;
+import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
@@ -105,6 +106,11 @@ public class BottomNavigationItemIml extends LinearLayout implements BottomNavig
     @Override
     public void setPosition(int position) {
         mPosition = position;
+    }
+
+    @Override
+    public View getLayoutView() {
+        return this;
     }
 
     private int getDip(int px) {

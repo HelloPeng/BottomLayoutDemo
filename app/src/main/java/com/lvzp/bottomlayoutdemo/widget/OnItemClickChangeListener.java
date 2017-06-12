@@ -16,7 +16,7 @@ public interface OnItemClickChangeListener {
      * @param bottomLayout 底部的布局控件
      * @param item         具体点击的条目
      * @param position     点击的位置
-     * @return 如果返回真，就会被拦截下面进行切换的操作，也就是说无论你怎么点都不会执行切换操作
+     * @return 是否要拦截点击事件，如果返回真，就会被拦截下面进行切换的操作，也就是说无论你怎么点都不会执行切换操作
      */
     boolean onItemClick(ViewGroup bottomLayout, View item, int position);
 

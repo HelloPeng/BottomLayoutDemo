@@ -1,6 +1,7 @@
 package com.lvzp.bottomlayoutdemo.widget;
 
-import android.graphics.drawable.Drawable;
+import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -30,4 +31,11 @@ public interface BottomNavigationItem {
     void setId(int id);
 
     int getId();
+
+    void setLayoutParams(ViewGroup.LayoutParams lp);
+
+    View getLayoutView();
+
+    void setOnClickListener(View.OnClickListener listener);
+
 }

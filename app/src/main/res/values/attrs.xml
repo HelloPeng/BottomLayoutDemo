@@ -4,5 +4,10 @@
         <attr name="layoutMenu" format="integer" />
         <attr name="selectColor" format="color" />
         <attr name="layoutElevation" format="dimension" />
+        <attr name="replaceLayoutId" format="integer" />
+        <attr name="layoutItemWidthMode" format="enum">
+            <enum name="weight" value="1" />
+            <enum name="wrap_content" value="2" />
+        </attr>
     </declare-styleable>
 </resources>
