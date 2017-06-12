@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="BottomNavigationLayout">
+        <attr name="layoutMenu" format="integer" />
+        <attr name="selectColor" format="color" />
+        <attr name="layoutElevation" format="dimension" />
+    </declare-styleable>
+</resources>
